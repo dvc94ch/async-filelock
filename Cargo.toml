@@ -1,0 +1,12 @@
+[package]
+name = "async-filelock"
+version = "0.1.0"
+authors = ["David Craven <david@craven.ch>"]
+edition = "2018"
+
+[dependencies]
+async-std = { git = "https://github.com/dvc94ch/async-std" }
+async-trait = "0.1"
+
+[dev-dependencies]
+tempdir = "0.3"
